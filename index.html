@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Convertor</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>Convertor</h1>
+  <p class="subtext"><i> Answers are compared after rounding to 2 decimal places (only if necessary)</i></p>
+
+  <section>
+    <div class="row">
+      <input type="text" id="inputValue" placeholder="input value (number)">
+      <select id="inputUnit" placeholder="input unit"></select>
+    </div>
+    <div class="row">
+      <input type="text" id="outputValue" placeholder="output value (number)">
+      <select id="outputUnit" placeholder="output unit"></select>
+    </div>
+    <div class="row">
+      <button id="submitButton"> Submit </button>
+    </div>
+  </section>
+
+  <section class="result">
+    <h3 id="result">
+      --
+    </h3>
+  </section>
+
+  <!-- scripts -->
+  <script src="./convertor.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
